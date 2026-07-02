@@ -1,9 +1,9 @@
 ---
 🚀 CPPS - Ngôn Ngữ Lập Trình CP+* (C-Plus-Plus-Star)
-
+```
 https://img.shields.io/badge/version-2.0.0-blue
 https://img.shields.io/badge/python-3.8%2B-green
-https://img.shields.io/badge/license-MIT-orange
+https://img.shields.io/badge/license-MIT-orange ```
 
 CPPS là trình thông dịch cho ngôn ngữ CP+* (C-Plus-Plus-Star) - một ngôn ngữ lập trình hiện đại, kết hợp sức mạnh của C++, sự thanh lịch của Python và tính an toàn của Rust.
 ---
@@ -24,7 +24,7 @@ CP+* (C-Plus-Plus-Star) là ngôn ngữ lập trình đa năng với:
 
 🎯 Cú Pháp Đặc Biệt
 
-Ký hiệu Ý nghĩa Ví dụ
+```Ký hiệu Ý nghĩa Ví dụ
 := Biến bất biến x := 42
 :: mut Biến mutable y :: mut int = 0
 ++ Định nghĩa hàm ++ add <~ (a, b) ** { ... }
@@ -48,7 +48,7 @@ own<T> Ownership own<int> x := 42
 share<T> Shared ref share<string> name
 borrow<T> Borrow borrow<int> ptr
 go Goroutine go my_function()
-'a Lifetime 'static
+'a Lifetime 'static```
 ---
 
 💻 Ví Dụ Cơ Bản
