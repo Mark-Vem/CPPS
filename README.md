@@ -1,3 +1,4 @@
+---
 🚀 CPPS - Ngôn Ngữ Lập Trình CP+* (C-Plus-Plus-Star)
 
 https://img.shields.io/badge/version-2.0.0-blue
@@ -5,6 +6,7 @@ https://img.shields.io/badge/python-3.8%2B-green
 https://img.shields.io/badge/license-MIT-orange
 
 CPPS là trình thông dịch cho ngôn ngữ CP+* (C-Plus-Plus-Star) - một ngôn ngữ lập trình hiện đại, kết hợp sức mạnh của C++, sự thanh lịch của Python và tính an toàn của Rust.
+---
 
 📖 Giới Thiệu
 
@@ -47,7 +49,6 @@ share<T> Shared ref share<string> name
 borrow<T> Borrow borrow<int> ptr
 go Goroutine go my_function()
 'a Lifetime 'static
-
 ---
 
 💻 Ví Dụ Cơ Bản
