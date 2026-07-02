@@ -6,8 +6,6 @@ https://img.shields.io/badge/license-MIT-orange
 
 CPPS là trình thông dịch cho ngôn ngữ CP+* (C-Plus-Plus-Star) - một ngôn ngữ lập trình hiện đại, kết hợp sức mạnh của C++, sự thanh lịch của Python và tính an toàn của Rust.
 
----
-
 📖 Giới Thiệu
 
 CP+* (C-Plus-Plus-Star) là ngôn ngữ lập trình đa năng với:
