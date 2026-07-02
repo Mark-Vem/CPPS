@@ -31,33 +31,6 @@ Tính Năng Mô Tả
 📦 Dễ Dàng Mở Rộng Module system, import/export, namespace, package management
 
 ---
-
-🎯 Cú Pháp Đặc Biệt
-
-Ký hiệu Ý nghĩa Ví dụ
-:= Biến bất biến x := 42
-:: mut Biến mutable y :: mut int = 0
-++ Định nghĩa hàm ++ add <~ (a, b) ** { ... }
-<~ Mũi tên tham số ++ fn <~ (p: int) ** { ... }
--> Kiểu trả về -> int
-** Mở đầu block ** { body }
-?? Điều kiện If ?? x > 0 ** { ... }
-<> Vòng lặp For <> i :: list ** { ... }
-~> In ra ~> io::println("Hello!")
-<- Return <- value
-!! Panic !! "error"
-!> Break !>
-!>> Continue !>>
-?~ Pattern match ?~ value { ... }
-@ Self reference @.field
-:: Method call obj:method()
-@@ Annotation @@override
-own<T> Ownership own<int> x := 42
-share<T> Shared ref share<string> name
-borrow<T> Borrow borrow<int> ptr
-go Goroutine go my_function()
-'a Lifetime 'static
-
 ---
 
 💻 Ví Dụ Cơ Bản
