@@ -5,34 +5,34 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/version-2.0.0-00D4FF?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/license-MIT-FF6B6B?style=for-the-badge&logo=mit" alt="License"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/status-stable-00C853?style=for-the-badge" alt="Status"/></a>
+  <img src="https://img.shields.io/badge/version-2.0.0-00D4FF?style=for-the-badge&logo=git&logoColor=white" alt="Version"/>
+  <img src="https://img.shields.io/badge/python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/license-MIT-FF6B6B?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/status-stable-00C853?style=for-the-badge" alt="Status"/>
 </p>
 
 <p align="center">
-  <b>⚡ Mạnh mẽ như C++ · 🦀 An toàn như Rust · 🐍 Thanh lịch như Python</b>
+  <b>Manh me nhu C++ · An toan nhu Rust · Thanh lich nhu Python</b>
 </p>
 
 <hr/>
 
-📖 Giới Thiệu
+📖 Gioi Thieu
 
-CP+* (C-Plus-Plus-Star) là ngôn ngữ lập trình đa năng, kết hợp tinh hoa của những ngôn ngữ hàng đầu:
+CP+ (C-Plus-Plus-Star) la ngon ngu lap trinh da nang, ket hop tinh hoa cua nhung ngon ngu hang dau:
 
 <table>
 <tr>
 <td width="33%" align="center">
-  <h3>⚡ Hiệu Năng Cao</h3>
+  <h3>⚡ Hieu Nang Cao</h3>
   <p>Ownership system, zero-cost abstractions, efficient memory management</p>
 </td>
 <td width="33%" align="center">
-  <h3>🦺 An Toàn</h3>
-  <p>Ownership, borrowing, lifetime checking - không lo lỗi bộ nhớ</p>
+  <h3>🦺 An Toan</h3>
+  <p>Ownership, borrowing, lifetime checking - khong lo loi bo nho</p>
 </td>
 <td width="33%" align="center">
-  <h3>🎯 Hiện Đại</h3>
+  <h3>🎯 Hien Dai</h3>
   <p>Pattern matching, concurrency, OOP, generics, macros, reflection</p>
 </td>
 </tr>
@@ -40,52 +40,52 @@ CP+* (C-Plus-Plus-Star) là ngôn ngữ lập trình đa năng, kết hợp tinh
 
 ---
 
-🎯 Cú Pháp Đặc Biệt
+🎯 Cu Phap Dac Biet
 
-<table align="center">
+<table>
 <tr>
-<th>Ký hiệu</th>
-<th>Ý nghĩa</th>
-<th>Ví dụ</th>
+<th>Ky hieu</th>
+<th>Y nghia</th>
+<th>Vi du</th>
 </tr>
 <tr>
 <td><code>:=</code></td>
-<td>Biến bất biến</td>
+<td>Bien bat bien</td>
 <td><code>x := 42</code></td>
 </tr>
 <tr>
 <td><code>:: mut</code></td>
-<td>Biến mutable</td>
+<td>Bien mutable</td>
 <td><code>y :: mut int = 0</code></td>
 </tr>
 <tr>
 <td><code>++</code></td>
-<td>Định nghĩa hàm</td>
+<td>Dinh nghia ham</td>
 <td><code>++ add &lt;~ (a, b) ** { ... }</code></td>
 </tr>
 <tr>
 <td><code>&lt;~</code></td>
-<td>Mũi tên tham số</td>
+<td>Mui ten tham so</td>
 <td><code>++ fn &lt;~ (p: int) ** { ... }</code></td>
 </tr>
 <tr>
 <td><code>-></code></td>
-<td>Kiểu trả về</td>
+<td>Kieu tra ve</td>
 <td><code>-&gt; int</code></td>
 </tr>
 <tr>
 <td><code>**</code></td>
-<td>Mở đầu block</td>
+<td>Mo dau block</td>
 <td><code>** { body }</code></td>
 </tr>
 <tr>
 <td><code>??</code></td>
-<td>Điều kiện If</td>
+<td>Dieu kien If</td>
 <td><code>?? x &gt; 0 ** { ... }</code></td>
 </tr>
 <tr>
 <td><code>&lt;&gt;</code></td>
-<td>Vòng lặp For</td>
+<td>Vong lap For</td>
 <td><code>&lt;&gt; i :: list ** { ... }</code></td>
 </tr>
 <tr>
@@ -152,7 +152,7 @@ CP+* (C-Plus-Plus-Star) là ngôn ngữ lập trình đa năng, kết hợp tinh
 
 ---
 
-💻 Ví Dụ
+💻 Vi Du
 
 Hello World
 
@@ -164,7 +164,7 @@ Hello World
 }
 ```
 
-Class và OOP
+Class va OOP
 
 ```cpps
 class Dog -> {
@@ -187,9 +187,9 @@ Pattern Matching
 
 ```cpps
 ?~ score {
-    90..=100 => { ~> io::println("Xuất sắc!") },
-    70..89   => { ~> io::println("Tốt") },
-    _        => { ~> io::println("Cần cố gắng") }
+    90..=100 => { ~> io::println("Xuat sac!") },
+    70..89   => { ~> io::println("Tot") },
+    _        => { ~> io::println("Can co gang") }
 }
 ```
 
@@ -209,34 +209,34 @@ ch:send(42)
 
 ---
 
-🛠️ Cài Đặt
+🛠️ Cai Dat
 
 ```bash
-# Clone dự án
+# Clone du an
 git clone https://github.com/Mark-Vem/CPPS.git
 cd CPPS/cpps-native
 
-# Chạy chương trình CP+*
+# Chay chuong trinh CP+*
 python cpps.py hello.cpps
 ```
 
-Yêu Cầu
+Yeu Cau
 
-· Python 3.8 trở lên
+· Python 3.8 tro len
 
 ---
 
 📋 CLI Commands
 
 ```bash
-python cpps.py file.cpps              # Chạy file
-python cpps.py file.cpps --verbose    # Chạy với debug
-python cpps.py --repl                 # Khởi động REPL
-python cpps.py -e 'x := 42'           # Chạy code inline
-python cpps.py --ast file.cpps        # Hiển thị AST
-python cpps.py --tokens file.cpps     # Hiển thị tokens
-python cpps.py --version              # Hiển thị version
-python cpps.py --help                 # Hiển thị trợ giúp
+python cpps.py file.cpps              # Chay file
+python cpps.py file.cpps --verbose    # Chay voi debug
+python cpps.py --repl                 # Khoi dong REPL
+python cpps.py -e 'x := 42'           # Chay code inline
+python cpps.py --ast file.cpps        # Hien thi AST
+python cpps.py --tokens file.cpps     # Hien thi tokens
+python cpps.py --version              # Hien thi version
+python cpps.py --help                 # Hien thi tro giup
 ```
 
 ---
@@ -245,30 +245,30 @@ python cpps.py --help                 # Hiển thị trợ giúp
 
 <table>
 <tr>
-<th>Lệnh</th>
-<th>Chức năng</th>
+<th>Lenh</th>
+<th>Chuc nang</th>
 </tr>
-<tr><td><code>:help</code> / <code>:h</code></td><td>Hiển thị trợ giúp</td></tr>
-<tr><td><code>:quit</code> / <code>:q</code></td><td>Thoát REPL</td></tr>
-<tr><td><code>:clear</code> / <code>:c</code></td><td>Xóa màn hình</td></tr>
+<tr><td><code>:help</code> / <code>:h</code></td><td>Hien thi tro giup</td></tr>
+<tr><td><code>:quit</code> / <code>:q</code></td><td>Thoat REPL</td></tr>
+<tr><td><code>:clear</code> / <code>:c</code></td><td>Xoa man hinh</td></tr>
 <tr><td><code>:reset</code></td><td>Reset interpreter</td></tr>
-<tr><td><code>:env</code></td><td>Hiển thị biến</td></tr>
-<tr><td><code>:ast &lt;code&gt;</code></td><td>Hiển thị AST</td></tr>
-<tr><td><code>:tokens &lt;code&gt;</code></td><td>Hiển thị tokens</td></tr>
-<tr><td><code>:time &lt;code&gt;</code></td><td>Đo thời gian</td></tr>
-<tr><td><code>:type &lt;expr&gt;</code></td><td>Hiển thị kiểu</td></tr>
+<tr><td><code>:env</code></td><td>Hien thi bien</td></tr>
+<tr><td><code>:ast &lt;code&gt;</code></td><td>Hien thi AST</td></tr>
+<tr><td><code>:tokens &lt;code&gt;</code></td><td>Hien thi tokens</td></tr>
+<tr><td><code>:time &lt;code&gt;</code></td><td>Do thoi gian</td></tr>
+<tr><td><code>:type &lt;expr&gt;</code></td><td>Hien thi kieu</td></tr>
 <tr><td><code>:load &lt;file&gt;</code></td><td>Load file .cpps</td></tr>
 </table>
 
 ---
 
-📂 Cấu Trúc Dự Án
+📂 Cau Truc Du An
 
 ```
 CPPS/
 ├── 📄 cpps.py              # Entry point
 ├── 📁 src/
-│   ├── 📄 tokens.py        # Định nghĩa token
+│   ├── 📄 tokens.py        # Dinh nghia token
 │   ├── 📄 lexer.py         # Tokenizer
 │   ├── 📄 parser.py        # Parser & AST
 │   └── 📄 interpreter.py   # Interpreter
@@ -282,12 +282,12 @@ CPPS/
 I/O
 
 ```cpps
-~> io::println("Hello")   -- In với newline
-~> io::print("Hello")     -- In không newline
-io::input("Prompt: ")     -- Đọc input
+~> io::println("Hello")   -- In voi newline
+~> io::print("Hello")     -- In khong newline
+io::input("Prompt: ")     -- Doc input
 ```
 
-Toán Học
+Toan Hoc
 
 ```cpps
 math::sqrt(16)    -- 4.0
@@ -340,7 +340,7 @@ sys::platform()
 
 ---
 
-📝 Ví Dụ Hoàn Chỉnh
+📝 Vi Du Hoan Chinh
 
 Calculator
 
@@ -398,14 +398,14 @@ module guess_game
 
 ---
 
-🧩 Tính Năng Nâng Cao
+🧩 Tinh Nang Nang Cao
 
 Ownership
 
 ```cpps
-own<string> s := "Hello"        -- Sở hữu độc quyền
-share<string> ref := s          -- Tham chiếu chia sẻ
-borrow<string> temp := s        -- Mượn tạm thời
+own<string> s := "Hello"        -- So huu doc quyen
+share<string> ref := s          -- Tham chieu chia se
+borrow<string> temp := s        -- Muon tam thoi
 ```
 
 Pattern Matching
@@ -455,51 +455,38 @@ Macros
 
 ---
 
-🤝 Đóng Góp
+🤝 Dong Gop
 
 1. Fork repository
-2. Tạo branch mới: git checkout -b feature/amazing
-3. Commit thay đổi: git commit -m 'Add amazing feature'
-4. Push lên branch: git push origin feature/amazing
-5. Mở Pull Request
+2. Tao branch moi: git checkout -b feature/amazing
+3. Commit thay doi: git commit -m 'Add amazing feature'
+4. Push len branch: git push origin feature/amazing
+5. Mo Pull Request
 
 ---
 
 📄 License
 
-MIT License - Xem file LICENSE để biết thêm chi tiết.
+MIT License - Xem file LICENSE de biet them chi tiet.
 
 ---
 
-🌟 Tác Giả
+🌟 Tac Gia
 
-<table>
-<tr>
-<td align="center">
-  <a href="https://github.com/Mark-Vem">
-    <img src="https://img.shields.io/badge/-Mark--Vem-000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</td>
-<td align="center">
-  <a href="https://github.com/Miu-Hub0">
-    <img src="https://img.shields.io/badge/-Miu--Hub0-000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</td>
-</tr>
-</table>
+· Mark-Vem - GitHub
 
 ---
 
 <p align="center">
   <b>💫 CPPS v2.0.0 · Advanced Edition</b><br/>
-  <i>"Tương lai của lập trình là sự đơn giản trong phức tạp"</i>
+  <i>"Tuong lai cua lap trinh la su don gian trong phuc tap"</i>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mark-Vem/CPPS"><img src="https://img.shields.io/badge/⭐_Star_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/Mark-Vem/CPPS">
+    <img src="https://img.shields.io/badge/⭐_Star_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
 </p>
-
----
 
 <hr/>
 
